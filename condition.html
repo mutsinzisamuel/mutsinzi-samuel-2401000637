@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>document</title>
+
+        <script>
+
+            function Studentsoff(){
+                if (document.querySelector('h1').innerHTML ==='Students off!'){
+                    document.querySelector('h1').innerHTML = 'University of Kigali!';
+                }else{
+                    document.querySelector('h1').innerHTML ='Students off!';
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        <h1>Students off!</h1>
+        <button onclick ="Studentsoff()">click here</button>
+    </body>
+</html>
+
